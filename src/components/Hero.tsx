@@ -49,7 +49,7 @@ const Hero = () => {
       <PlantAnimation />
       
       <div className="section-container relative z-10 flex flex-col items-center justify-center text-center">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto card-glass p-8 md:p-12 rounded-3xl shadow-xl">
           <span 
             className={`inline-block mb-3 px-4 py-1.5 rounded-full bg-natural-100 text-natural-700 text-sm font-medium
               opacity-0 ${isVisible ? 'animate-fade-in' : ''}
@@ -67,12 +67,12 @@ const Hero = () => {
               <span className="text-natural-900">Mugisha</span>
             </h1>
             <h1 className="text-5xl md:text-6xl lg:text-8xl font-display font-bold tracking-tight mb-6">
-              <span className="text-natural-500">Honore</span>
+              <span className="text-natural-600">Honore</span>
             </h1>
           </div>
           
           <p 
-            className={`text-lg md:text-xl text-natural-700 max-w-2xl mx-auto mb-8 md:mb-10
+            className={`text-lg md:text-xl text-natural-800 font-medium max-w-2xl mx-auto mb-8 md:mb-10
               opacity-0 ${isVisible ? 'animate-fade-in' : ''}
             `}
             style={{ animationDelay: '0.6s' }}

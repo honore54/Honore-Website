@@ -94,7 +94,7 @@
   }
 
   .card-glass {
-    @apply bg-white/80 backdrop-blur-md rounded-2xl border border-white/20 shadow-xl;
+    @apply bg-white/90 backdrop-blur-md rounded-2xl border border-white/20 shadow-xl;
   }
 
   .leaf {
@@ -124,6 +124,11 @@
   
   .nav-link:hover::after {
     @apply scale-x-100 origin-bottom-left;
+  }
+
+  /* Text shadow for better readability */
+  .text-shadow {
+    text-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 2px 6px rgba(0,0,0,0.05);
   }
 
   /* Animated background gradients */

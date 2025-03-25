@@ -59,14 +59,17 @@ const Hero = () => {
             Software Developer
           </span>
           
-          <h1 
-            className={`text-4xl md:text-5xl lg:text-7xl font-display font-bold tracking-tight text-natural-900 mb-6
-              opacity-0 ${isVisible ? 'animate-fade-in' : ''}
-            `}
+          <div 
+            className={`opacity-0 ${isVisible ? 'animate-fade-in' : ''}`}
             style={{ animationDelay: '0.4s' }}
           >
-            Mugisha <span className="text-natural-500">Honore</span>
-          </h1>
+            <h1 className="text-5xl md:text-6xl lg:text-8xl font-display font-bold tracking-tight mb-1">
+              <span className="text-natural-900">Mugisha</span>
+            </h1>
+            <h1 className="text-5xl md:text-6xl lg:text-8xl font-display font-bold tracking-tight mb-6">
+              <span className="text-natural-500">Honore</span>
+            </h1>
+          </div>
           
           <p 
             className={`text-lg md:text-xl text-natural-700 max-w-2xl mx-auto mb-8 md:mb-10

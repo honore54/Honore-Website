@@ -48,10 +48,10 @@ const Hero = () => {
       {/* Plant animations in background */}
       <PlantAnimation />
       
-      <div className="section-container relative z-10 flex flex-col items-center justify-center text-center">
-        <div className="max-w-3xl mx-auto card-glass p-8 md:p-12 rounded-3xl shadow-xl border-2 border-natural-300">
+      <div className="section-container relative z-20 flex flex-col items-center justify-center text-center">
+        <div className="max-w-3xl mx-auto card-glass p-8 md:p-12 rounded-3xl shadow-2xl border-2 border-natural-300">
           <span 
-            className={`inline-block mb-3 px-4 py-1.5 rounded-full bg-natural-500/20 text-natural-800 text-sm font-bold
+            className={`inline-block mb-3 px-4 py-1.5 rounded-full bg-natural-500/30 text-natural-800 text-sm font-bold
               opacity-0 ${isVisible ? 'animate-fade-in' : ''}
             `} 
             style={{ animationDelay: '0.2s' }}
@@ -112,7 +112,7 @@ const Hero = () => {
         
         <button
           onClick={scrollToAbout}
-          className={`absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-white/80 backdrop-blur-sm p-3 rounded-full shadow-lg hover:shadow-xl transition-all hover:bg-white
+          className={`absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition-all hover:bg-white
             opacity-0 ${isVisible ? 'animate-fade-in animate-bounce' : ''}
           `}
           style={{ animationDelay: '1.2s' }}

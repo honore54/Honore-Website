@@ -62,8 +62,7 @@ const PlantAnimation = () => {
 
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      {/* Translucent gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-natural-50/50 via-transparent to-transparent"></div>
+      {/* Removed the translucent gradient overlay that was covering the card */}
       
       {/* Animated leaves */}
       {leaves.map((leaf) => (
@@ -98,9 +97,7 @@ const PlantAnimation = () => {
         </svg>
       </div>
       
-      {/* Circular gradients */}
-      <div className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-gradient-to-r from-natural-100/40 to-natural-200/30 blur-3xl"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-gradient-to-l from-natural-100/30 to-natural-200/20 blur-3xl"></div>
+      {/* Removed circular gradients that were creating background effects in front of the card */}
     </div>
   );
 };

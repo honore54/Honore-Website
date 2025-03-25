@@ -131,10 +131,10 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-natural-800">Email</h4>
                     <a 
-                      href="mailto:contact@mugishahonore.com" 
+                      href="mailto:honoremugisha54@gmail.com" 
                       className="text-natural-600 hover:text-natural-800 transition-colors"
                     >
-                      contact@mugishahonore.com
+                      honoremugisha54@gmail.com
                     </a>
                   </div>
                 </div>
@@ -144,10 +144,10 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-natural-800">Phone</h4>
                     <a 
-                      href="tel:+250780000000" 
+                      href="tel:+250791645848" 
                       className="text-natural-600 hover:text-natural-800 transition-colors"
                     >
-                      +250 780 000 000
+                      +250 791645848
                     </a>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ const Contact = () => {
                 <h4 className="font-medium text-natural-800 mb-4">Connect With Me</h4>
                 <div className="flex space-x-4">
                   <a
-                    href="https://github.com/mugishahonore"
+                    href="https://github.com/honore54"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-natural-100 p-3 rounded-full text-natural-700 hover:bg-natural-200 hover:text-natural-900 transition-colors"

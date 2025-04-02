@@ -56,8 +56,8 @@ const Skills = () => {
         { name: "Express", level: 80 },
         { name: "RESTful APIs", level: 90 },
         { name: "MongoDB", level: 75 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "GraphQL", level: 70 },
+        { name: "Mysql", level: 90 },
+        
       ],
     },
     {

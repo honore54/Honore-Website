@@ -29,7 +29,7 @@ const Projects = () => {
     {
       title: "CloudSync",
       description: "A secure file sharing and synchronization platform with end-to-end encryption and collaborative editing features.",
-      image: "https://images.unsplash.com/photo-1656606430902-15c15e86330c?q=80&w=1974&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
       tags: ["Next.js", "Firebase", "Tailwind CSS", "WebRTC"],
       demoLink: "https://example.com/cloudsync",
       sourceLink: "https://github.com/mugishahonore/cloudsync",
@@ -54,7 +54,7 @@ const Projects = () => {
     {
       title: "AgroTech",
       description: "A precision agriculture platform providing data-driven insights for crop management, weather forecasting, and yield optimization.",
-      image: "https://images.unsplash.com/photo-1581022295087-35e593892ecb?q=80&w=2070&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
       tags: ["Angular", "Leaflet", "Python", "TensorFlow"],
       demoLink: "https://example.com/agrotech",
       sourceLink: "https://github.com/mugishahonore/agrotech",

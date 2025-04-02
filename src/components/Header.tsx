@@ -208,7 +208,7 @@ const Header = () => {
           </a>
           <div className="flex items-center space-x-6 pt-6">
             <a
-              href="https://github.com/mugishahonore"
+              href="https://github.com/honore54"
               target="_blank"
               rel="noopener noreferrer"
               className="text-natural-700 hover:text-natural-900 transition-colors"
@@ -217,7 +217,7 @@ const Header = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/mugishahonore"
+              href="https://www.linkedin.com/in/mugisha-honore-44b7a5251/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-natural-700 hover:text-natural-900 transition-colors"
@@ -226,7 +226,7 @@ const Header = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="https://twitter.com/mugishahonore"
+              href="https://x.com/HonoreWes"
               target="_blank"
               rel="noopener noreferrer"
               className="text-natural-700 hover:text-natural-900 transition-colors"

@@ -54,12 +54,12 @@ const Footer = () => {
               </li>
               <li>
                 <a href="mailto:contact@mugishahonore.com" className="text-natural-300 hover:text-white transition-colors duration-300">
-                  contact@mugishahonore.com
+                  honoremugisha54@gmail.com
                 </a>
               </li>
               <li>
                 <a href="tel:+250780000000" className="text-natural-300 hover:text-white transition-colors duration-300">
-                  +250 780 000 000
+                  +250 791645848
                 </a>
               </li>
             </ul>
@@ -68,7 +68,7 @@ const Footer = () => {
               <h3 className="text-lg font-semibold mb-4 text-natural-100">Follow</h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/mugishahonore"
+                  href="https://github.com/honore54"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-natural-300 hover:text-white transition-colors duration-300"
@@ -79,7 +79,7 @@ const Footer = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://linkedin.com/in/mugishahonore"
+                  href="https://www.linkedin.com/in/mugisha-honore-44b7a5251/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-natural-300 hover:text-white transition-colors duration-300"
@@ -92,7 +92,7 @@ const Footer = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://twitter.com/mugishahonore"
+                  href="https://x.com/HonoreWes"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-natural-300 hover:text-white transition-colors duration-300"

@@ -176,7 +176,7 @@ const Contact = () => {
                     <Github size={20} />
                   </a>
                   <a
-                    href="https://linkedin.com/in/mugishahonore"
+                    href="https://www.linkedin.com/in/mugisha-honore-44b7a5251/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-natural-100 p-3 rounded-full text-natural-700 hover:bg-natural-200 hover:text-natural-900 transition-colors"
@@ -185,7 +185,7 @@ const Contact = () => {
                     <Linkedin size={20} />
                   </a>
                   <a
-                    href="https://twitter.com/mugishahonore"
+                    href="https://x.com/HonoreWes"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-natural-100 p-3 rounded-full text-natural-700 hover:bg-natural-200 hover:text-natural-900 transition-colors"

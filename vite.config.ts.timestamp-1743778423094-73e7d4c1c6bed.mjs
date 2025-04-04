@@ -5,11 +5,10 @@ import path from "path";
 import { componentTagger } from "file:///C:/Users/Honore/Honore-Website/node_modules/lovable-tagger/dist/index.js";
 var __vite_injected_original_dirname = "C:\\Users\\Honore\\Honore-Website";
 var vite_config_default = defineConfig(({ mode }) => ({
-  base: "/",
+  base: "/Honore-Website",
   server: {
     host: "::",
     port: 8080,
-    historyApiFallback: true,
   },
   plugins: [
     react(),

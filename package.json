@@ -1,6 +1,6 @@
 {
   "name": "vite_react_shadcn_ts",
-  "homepage" : "https://honore54.github.io/Honore-Website/",
+  "homepage": "https://honore54.github.io/Honore-Website/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,8 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-  "predeploy": "npm run build && echo > dist/.nojekyll",
-  "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build && echo > dist/.nojekyll",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -43,6 +43,7 @@
     "@radix-ui/react-toggle-group": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.4",
     "@tanstack/react-query": "^5.56.2",
+    "@vercel/analytics": "^1.5.0",
     "caniuse-lite": "^1.0.30001710",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
